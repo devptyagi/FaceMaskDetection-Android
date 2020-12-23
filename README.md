@@ -15,4 +15,9 @@ open(output_file, "wb").write(tflite_model)
 ```     
 
 The model was conveniently created by using transfer learning over the MobileNetV2 architecture, producing a ‘.h5’ file. 
-After TensorFlow Lite conversion, the resulting file is very light-weight, really good for a mobile application.
+After TensorFlow Lite conversion, the resulting file is very light-weight, really good for a mobile application.      
+
+
+## Preview   
+
+<img src="screenshot.png">
